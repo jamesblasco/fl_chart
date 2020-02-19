@@ -4,10 +4,9 @@ import 'package:fl_chart/src/chart/base/base_chart/touch_input.dart';
 import 'package:fl_chart/src/chart/line_chart/range/range_gesture_detector.dart';
 import 'package:fl_chart/src/utils/utils.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 
-import 'line_chart_data.dart';
-import 'line_chart_painter.dart';
+import '../line_chart_painter.dart';
+
 
 class LineChart extends ImplicitlyAnimatedWidget {
   final LineChartData data;

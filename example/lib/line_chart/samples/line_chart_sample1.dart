@@ -67,6 +67,7 @@ class LineChartSample1State extends State<LineChartSample1> {
                     padding: const EdgeInsets.only(right: 16.0, left: 6.0),
                     child: LineChart(
                       isShowingMainData ? sampleData1() : sampleData2(),
+                      onRangeSelected: (range) => print('Range selected $range'),
                       swapAnimationDuration: Duration(milliseconds: 250),
                     ),
                   ),
